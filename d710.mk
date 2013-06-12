@@ -148,3 +148,4 @@ DEVICE_PACKAGE_OVERLAYS := \
     $(LOCAL_PATH)/overlay \
     device/samsung/galaxys2-common/overlay
 $(call inherit-product-if-exists, vendor/samsung/d710/d710-vendor.mk)
+$(call inherit-product-if-exists, vendor/lz-kernel/E4GT/E4GT_lightningzap.mk)
